@@ -5,7 +5,7 @@ module ApplicationCable
     private
 
     def report_error(e)
-      Rails.logger.error e.message
+      Rails.logger.error(e)
     end
   end
 end
